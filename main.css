@@ -1,0 +1,232 @@
+.main_div_flex {
+    display: flex;
+}
+
+.main_div {
+    width: 100%;
+}
+
+.main_head_body_div {
+    background: #E9ECEF;
+}
+
+.main_div_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    width: 100%;
+    height: 200px;
+    border-radius: 0px 0px 16px 16px;
+    background: radial-gradient(36.28% 150.93% at 50% 50%, #3B8AFF 0%, #0048B2 100%);
+}
+
+.main_div_head_mic_div {
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: rgba(58, 87, 232, 0.35);
+}
+
+.main_div_head_left_elem_flex {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.main_div_head_hello_text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main_div_head_description_text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.main_div_head_mic_text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* ********************** */
+
+.main_div_body_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .main_div_body_elements{
+    display: flex;
+    justify-content: center;
+} */
+
+.main_div_body {
+    /* display: flex;
+    justify-content: center; */
+    width: 90%;
+    height: 507px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 0px 30px;
+    box-shadow: 0px 10px 13px 0px rgba(17, 38, 146, 0.05);
+    overflow: auto;
+}
+
+.main_div_body_title_create_btn_fixed{
+    position: sticky;
+    top: 0;
+}
+
+.main_div_titles_div {
+    width: 100%;
+}
+
+.main_div_list_title_item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #F5F6FA;
+}
+
+.main_div_list_item_div {
+    display: flex;
+    justify-content: flex-start;
+    padding: 12px 24px;
+    align-items: center;
+    gap: 10px;
+}
+
+.main_div_title_text {
+    color: #8A92A6;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 175%;
+}
+
+.main_div_item_text {
+    padding: 12px 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 175%;
+}
+
+
+#main_div_title_id {
+    width: 5%;
+}
+
+#main_div_title_user_name {
+    width: 25%;
+}
+
+#main_div_title_title {
+    width: 45%;
+}
+
+#main_div_title_actions {
+    width: 25%;
+    padding: 12px 24px;
+}
+
+
+.main_div_body_title_create_btn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0px;
+    background: #FFF;
+}
+
+.main_div_body_title {
+    color: #232D42;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+
+.main_div_create_btn {
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: #3A57E8;
+    box-shadow: 0px 2px 4px 0px rgba(58, 87, 232, 0.30);
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+    border: 0;
+}
+
+.main_div_titles_div {
+    display: flex;
+
+}
+
+/* ********************** */
+
+.main_div_footer {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_div_footer_left {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    color: #000;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main_div_footer_right {
+    color: #000;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer_author {
+    color: #3A57E8;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

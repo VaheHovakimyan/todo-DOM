@@ -1,0 +1,103 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_title {
+    color: #232D42;
+    font-family: Inter;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.header_logo_search {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 76px;
+    padding: 24px 32px 16px 32px;
+    align-items: center;
+}
+
+.logo_website_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.back_btn_div {
+    /* display: flex; */
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    border-radius: 33px;
+    background: #3A57E8;
+}
+
+.main_header {
+    display: flex;
+    height: 76px;
+    padding: 16px 32px;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search_input_div {
+    display: flex;
+    padding: 4px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    border: 1px solid var(--e9ecef-Bg-2, #E9ECEF);
+    background: #FFF;
+}
+
+.search_input {
+    border: 0;
+    outline: none;
+    color: #ADB5BD;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+}
+
+
+.header_lang_notif_account {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+}
+
+.account_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* gap: 8px; */
+}
+
+.account_info_up {
+    color: #232D42;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+}
+
+.account_info_down {
+    color: #8A92A6;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}

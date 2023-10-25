@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/sidebar.css">
+    <link rel="stylesheet" href="./style/todolist.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <article>
+        <header>
+            <div class="header">
+                <div class="header_logo_search">
+                    <div class="logo_website_title">
+                        <div class="header_logo">
+                            <img src="./icons/header/website_icon.svg" alt="header_logo">
+                        </div>
+                        <div class="header_title">
+                            <p class="header_title_text">Hope Ui</p>
+                        </div>
+                    </div>
+                    <div class="back_btn_div">
+                        <img src="./icons/header/back_btn.svg" alt="back_btn">
+                    </div>
+                </div>
+
+                <div class="main_header">
+
+                    <div class="search_input_div">
+                        <img src="./icons/header/search_icon.svg" alt="search_icon">
+                        <input type="text" placeholder="Search..." class="search_input">
+                    </div>
+
+                    <div class="header_lang_notif_account">
+                        <div class="lang_icon_div">
+                            <img src="./icons/header/lang_icon.svg" alt="lang_icon">
+                        </div>
+                        <div class="notif_icon_div">
+                            <img src="./icons/header/notif_icon.svg" alt="notif_icon">
+                        </div>
+                        <div class="msg_icon_div">
+                            <img src="./icons/header/msg_icon.svg" alt="msg_icon">
+                        </div>
+                        <div class="ava_icon_div">
+                            <img src="./icons/header/ava_icon.svg" alt="ava_icon">
+                        </div>
+                        <div class="account_info">
+                            <p class="account_info_up">Austin Robertson</p>
+                            <p class="account_info_down">Marketing Administrator</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+
+        <main>
+
+            <div class="main_div_flex">
+
+                <div class="sidebar_div">
+                    <nav>
+                        <div class="sidebar">
+                            <div class="seperator"></div>
+                            <div class="menu_elements_container" id="menu_elements_container">
+
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+
+                <div class="main_div">
+
+                    <div class="main_head_body_div">
+
+                        <div class="main_div_head">
+
+                            <div class="main_div_head_hello_devs_div">
+                                <div class="main_div_head_left_elem_flex">
+                                    <p class="main_div_head_hello_text">Hello Devs !</p>
+                                    <p class="main_div_head_description_text">
+                                        We are on a mission to help like you beautiful projects
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="main_div_head_mic_div">
+                                <img src="./icons/main_list/mic_icon.svg" alt="mic_icon">
+                                <p class="main_div_head_mic_text">Announcments</p>
+                            </div>
+
+                        </div>
+
+                        <div class="main_div_body_flex">
+                            <div class="main_div_body">
+                                <div class="main_div_body_elements">
+
+
+                                    <div class="main_div_list_div">
+
+                                        <div class="main_div_body_title_create_btn_fixed">
+                                            <div class="main_div_body_title_create_btn">
+                                                <p class="main_div_body_title">Posts</p>
+                                                <button class="main_div_create_btn">Create</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="main_div_titles_div">
+                                            <div class="main_div_list_title_item">
+
+                                                <div class="main_div_list_item_div" id="main_div_title_id">
+                                                    <span class="main_div_title_text">
+                                                        #
+                                                    </span>
+                                                </div>
+
+                                                <div class="main_div_list_item_div" id="main_div_title_user_name">
+                                                    <span class="main_div_title_text">
+                                                        User Name
+                                                    </span>
+                                                </div>
+
+                                                <div class="main_div_list_item_div" id="main_div_title_title">
+                                                    <span class="main_div_title_text">
+                                                        Title
+                                                    </span>
+                                                </div>
+
+                                                <div class="main_div_list_item_div" id="main_div_title_actions">
+                                                    <span class="main_div_title_text">
+                                                        Actions
+                                                    </span>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="main_div_list" id="main_div_list">
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="main_div_footer">
+                        <div class="main_div_footer_left">
+                            <p class="main_div_footer_left_text">Privacy Policy</p>
+                            <p class="main_div_footer_left_text">Terms of Use</p>
+                        </div>
+                        <div class="main_div_footer_right">
+                            <p>© 2021 Hope UI, Made with ❤ by <span class="footer_author">IQONIC Design.</span></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+    </article>
+
+    <script src="./menu.js" type="module"></script>
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>
